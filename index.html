@@ -5,12 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <title>Frontend Mentor | Blog preview card</title>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree&display=swap" rel="stylesheet">
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px; text-align: center;
+    }
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+    body {
+      background-color:hsl(47, 88%, 63%);
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Figtree', sans-serif;
+
+    }
+    .container {
+      background-color: white;
+      border-radius: 20px;
+      padding: 40px;
+      text-align: left;
+      display: inline-block;
+    }
+    .tags {
+      background-color: hsl(47, 88%, 63%);
+      color: black;
+      display: inline;
+      padding: 5px;
+      border-radius: 5px;
+    }
   </style>
 </head>
 <body>
-  
+  <div class="container">
+    <img src="assets/images/illustration-article.svg" alt=""><br><br>
+    <p class="tags">Learning</p><br>
+    <p>Published 21 Dec 2023</p>
+    <h2>HTML & CSS foundations</h2>
+    <p>These languages are the backbone of every <br>
+    website, defining structure, content, and <br>
+    presentation.</p>
+  </div>
 </body>
 </html>
